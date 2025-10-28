@@ -5,4 +5,5 @@
     <string name="passw">Contraseña</string>
     <string name="Login">Login</string>
     <string name="signup">Signup</string>
+    <string name="opinion">Te ha gustado esta app?</string>
 </resources>
