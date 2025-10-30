@@ -14,17 +14,18 @@
         android:layout_height="wrap_content"
         android:text="Calendario"
         android:textSize="32dp"
-        android:textStyle="italic"
+        android:textStyle="bold"
+        android:padding="10dp"
         android:layout_marginBottom="10dp"
         android:textColor="@color/white"
-        android:background="@color/green_700"/>
+        android:background="@color/purple_500"/>
 
     <CalendarView
         android:layout_width="330dp"
         android:layout_height="192dp"
-        android:focusedMonthDateColor="@color/green_700"
+        android:focusedMonthDateColor="@color/purple_300"
         android:textAlignment="center"
-        android:weekDayTextAppearance="@color/green_700" />
+        android:weekDayTextAppearance="@color/purple_300" />
 
     <com.google.android.material.divider.MaterialDivider
         android:layout_width="match_parent"
@@ -54,7 +55,9 @@
         android:valueFrom="1"
         android:valueTo="10"
         app:labelBehavior="floating"
-        app:trackStopIndicatorSize="4dp" />
+        app:trackStopIndicatorSize="4dp"
+        app:trackColor="@color/purple_100"
+        app:haloColor="@color/purple_300"/>
 
 
 </LinearLayout>
